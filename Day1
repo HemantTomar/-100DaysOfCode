@@ -16,4 +16,27 @@ Logic: Iterate through the array and swap adjacent elements.
 
 
 solution:
-![image](https://user-images.githubusercontent.com/38708271/128816889-c41781ea-377c-4844-b1c1-fb27b666860a.png)
+    void convertToWave(vector<int>& arr, int n){
+        
+        // Your code here
+        int temp;
+        if(n%2==0)
+        for(int i=0;i<n;i=i+2)
+        {
+            temp=arr[i];
+            arr[i]=arr[i+1];
+            arr[i+1]=temp;
+        }
+        else
+        {
+          for(int i=0;i<n-1;i=i+2)
+        {
+            temp=arr[i];
+            arr[i]=arr[i+1];
+            arr[i+1]=temp;
+        }  
+        }
+        
+    }
+    
+
