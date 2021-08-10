@@ -14,7 +14,6 @@ sorting it in wave form are
 
 Logic: Iterate through the array and swap adjacent elements.
 
-
 solution:
     void convertToWave(vector<int>& arr, int n){
         
