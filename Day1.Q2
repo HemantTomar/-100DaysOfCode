@@ -30,7 +30,7 @@ Input : Arr[] = {6, 7, 8, 10}, Q = 2
 queries[] = {0, 3, 1, 2}
 Output : 7 7
 
- 
+
 
 Your Task:
 This is a function problem. The input is already taken care of by the driver code. You only need to complete the function findMean() that takes an array (arr), an array of queries (queries), sizeOfArray (n), sizeOfQueriesArray (2*q) and return the array of size q which has the answer for all the queries. The driver code takes care of the printing.
