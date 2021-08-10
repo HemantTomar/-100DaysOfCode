@@ -1,4 +1,4 @@
-Question:
+Question:Mean of range in array
 Given an array of n integers and q queries. Write a program to find floor value of mean in range l to r for each query in a new line.
 
 Example 1:
